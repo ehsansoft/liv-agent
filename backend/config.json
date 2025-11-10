@@ -1,0 +1,31 @@
+{
+  "zai_api_key": "d65211a9a00341c39c67dd9c5b354e64.fG4Bm9UG8xK9nKCy",
+  "output_dir": "output",
+  "image_dir": "images",
+  "max_products_per_batch": 10,
+  "enable_image_generation": true,
+  "enable_seo_generation": true,
+  "competitor_urls": [
+    "https://asalbanooshop.com",
+    "https://floracosmeticshop.com",
+    "https://www.amazon.com"
+  ],
+  "image_generation": {
+    "size": "1024x1024",
+    "quality": "high",
+    "style": "professional product photography"
+  },
+  "seo_config": {
+    "title_length": 60,
+    "description_length": 160,
+    "keyword_density": 0.02,
+    "language": "fa"
+  },
+  "export_formats": ["woocommerce", "enhanced", "json"],
+  "brand_page_generation": {
+    "enable": true,
+    "include_categories": true,
+    "include_testimonials": true,
+    "include_ingredient_info": true
+  }
+}
