@@ -11,7 +11,7 @@ import pandas as pd
 import aiofiles
 from pathlib import Path
 
-from enhanced_manager import EnhancedBeautyProductManager
+from enhanced_manager_new import EnhancedBeautyProductManager
 
 app = FastAPI(
     title="Livora Beauty Product Management API",
